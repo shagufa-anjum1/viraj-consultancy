@@ -1,0 +1,9 @@
+@import "./styles/variables.css";
+@import "./styles/typography.css";
+@import "./styles/global.css";
+@import "./styles/header.css";
+@import "./styles/home.css";
+@import "./styles/contact.css";
+@import "./styles/footer.css";
+@import "./styles/about.css";
+@import "./styles/services.css";

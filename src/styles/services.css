@@ -1,0 +1,21 @@
+.vc-services-hero{position:relative;color:#fff;padding:120px 0 80px;background:linear-gradient(0deg,rgba(245,249,252,.28),rgba(245,249,252,.28)),url("../assets/images/service1.jpg") center/cover no-repeat}
+.vc-services-hero__content h1{font-size:clamp(42px,7vw,72px);margin:0 0 10px 0}
+.vc-services-hero__content p{opacity:.95;max-width:760px}
+
+.vc-services-banner{color:#fff;padding:90px 0;background:linear-gradient(0deg,rgba(23,74,122,.6),rgba(23,74,122,.6)),url("../assets/images/service2.jpg") center/cover no-repeat}
+.vc-services-banner__content{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+
+.vc-pricing__grid{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.vc-price-card{background:#fff;border:2px solid rgba(23,74,122,.3);border-radius:14px;padding:24px}
+.vc-price-card h3{margin:0 0 6px 0}
+.vc-price-card__price{font-size:34px;font-weight:800;margin:6px 0 12px 0}
+.vc-price-card__price span{font-size:12px;font-weight:600;color:#667}
+.vc-price-card ul{list-style:none;padding:0;margin:0 0 14px 0}
+.vc-price-card ul li+li{margin-top:8px}
+.vc-price-card.is-featured{background:var(--brand-2);border-color:transparent;color:#fff}
+.vc-price-card.is-featured .vc-price-card__price span{color:#eef}
+
+.vc-steps__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.vc-step{background:#fff;border:2px solid rgba(23,74,122,.3);border-radius:14px;padding:24px}
+
+@media (max-width:1000px){.vc-pricing__grid{grid-template-columns:1fr}.vc-steps__grid{grid-template-columns:1fr}}
