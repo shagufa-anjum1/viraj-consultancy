@@ -1,9 +1,16 @@
+import contactHero from "@/assets/images/contact1.jpg";
+import contactWhy from "@/assets/images/contact2.jpg";
+import contactInfo from "@/assets/images/contact3.jpg";
+
 export function ContactPage() {
   return (
     <>
       {/* HERO */}
       <section className="vc-contact-hero">
-        <div className="vc-contact-hero__bg" />
+        <div className="vc-contact-hero__media">
+          <img src={contactHero} alt="Contact us" />
+          <div className="vc-contact-hero__overlay" />
+        </div>
         <div className="container vc-contact-hero__content">
           <h1>Contact <span>Us</span></h1>
           <p>Turn your ideas into compliant, growth-ready solutions — let’s talk.</p>
@@ -23,53 +30,87 @@ export function ContactPage() {
               From payroll to audits, we work as your long‑term financial partner.
             </p>
           </div>
-          <div className="vc-contact-why__image" />
+          <div className="vc-contact-why__image">
+            <img src={contactWhy} alt="Why choose us" />
+          </div>
         </div>
       </section>
 
-      {/* LET'S TALK */}
-      <section className="vc-contact-talk section">
+
+      {/* FORM + INFO (Bhumi Labs style) */}
+      <section className="vc-contact-connect section">
         <div className="container">
-          <h2>Let’s talk about your project</h2>
-          <p className="vc-contact-talk__sub">
-            Got an idea? Need help with compliance or payroll? Drop us a line — we’re ready to help.
-          </p>
-        </div>
-      </section>
+          {/* Center heading like Bhumi Labs */}
+          <div className="vc-contact-connect__head">
+            <h2>Let’s talk about your project</h2>
+            <p>
+              Got an idea? Need help with compliance or payroll? Drop us a line — we’re ready to help.
+            </p>
+          </div>
 
-      {/* FORM + INFO */}
-      <section className="vc-contact-form section">
-        <div className="container vc-contact-form__grid">
-          <form className="vc-form" onSubmit={(e) => e.preventDefault()}>
-            <h3>Contact Us</h3>
-            <label>
-              <span>Full Name</span>
-              <input type="text" placeholder="Your name" required />
-            </label>
-            <label>
-              <span>Email Address</span>
-              <input type="email" placeholder="you@email.com" required />
-            </label>
-            <label>
-              <span>Phone Number</span>
-              <input type="tel" placeholder="+91 XXXXXX XXXX" />
-            </label>
-            <label className="is-textarea">
-              <span>Your Message</span>
-              <textarea rows={5} placeholder="Tell us how we can help..." />
-            </label>
-            <button type="submit" className="vc-btn vc-btn--primary">Send Message</button>
-          </form>
+          <div className="vc-contact-connect__grid">
+            {/* LEFT: FORM */}
+            <form className="vc-form vc-form--fancy" onSubmit={(e) => e.preventDefault()}>
+              <h3>CONTACT US</h3>
+              <div className="vc-form__divider" />
 
-          <aside className="vc-contact-info">
-            <div className="vc-contact-info__image" />
-            <ul className="vc-contact-info__list">
-              <li><strong>Address:</strong> SCO-12, Kamla Palace, Near Sohna Chowk, Gurugram - 122001</li>
-              <li><strong>Phone:</strong> +91 9870179510</li>
-              <li><strong>Email:</strong> info@viraajconsultancy.com</li>
-              <li><strong>Hours:</strong> Mon–Sat: 10AM–7PM</li>
-            </ul>
-          </aside>
+              <label className="vc-field vc-field--name">
+                <span>Full Name</span>
+                <input type="text" placeholder="Your name" required />
+              </label>
+
+              <label className="vc-field vc-field--email">
+                <span>Email Address</span>
+                <input type="email" placeholder="you@email.com" required />
+              </label>
+
+              <label className="vc-field vc-field--phone">
+                <span>Phone Number</span>
+                <input type="tel" placeholder="+91 XXXXXX XXXX" />
+              </label>
+
+              <label className="vc-field vc-field--msg is-textarea">
+                <span>Your Message</span>
+                <textarea rows={5} placeholder="Tell us how we can help..." />
+              </label>
+
+              <button type="submit" className="vc-btn vc-btn--primary vc-btn--xl">
+                Send Message
+              </button>
+            </form>
+
+            {/* RIGHT: IMAGE BACKGROUND + INFO ON TOP */}
+            <aside className="vc-office">
+              <div className="vc-office__bg">
+                <img src={contactInfo} alt="Our office" />
+                <div className="vc-office__overlay" />
+              </div>
+
+              <div className="vc-office__card">
+                <div className="vc-office__row">
+                  <span className="vc-office__label">Address</span>
+                  <span className="vc-office__value">
+                    SCO-12, Kamla Palace, Near Sohna Chowk, Gurugram - 122001
+                  </span>
+                </div>
+
+                <div className="vc-office__row">
+                  <span className="vc-office__label">Phone</span>
+                  <span className="vc-office__value">+91 9870179510</span>
+                </div>
+
+                <div className="vc-office__row">
+                  <span className="vc-office__label">Email</span>
+                  <span className="vc-office__value">info@viraajconsultancy.com</span>
+                </div>
+
+                <div className="vc-office__row">
+                  <span className="vc-office__label">Hours</span>
+                  <span className="vc-office__value">Mon–Sat: 10AM–7PM</span>
+                </div>
+              </div>
+            </aside>
+          </div>
         </div>
       </section>
 

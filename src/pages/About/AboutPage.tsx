@@ -1,7 +1,15 @@
+import aboutHero from "@/assets/images/about1.jpg";
+import aboutIntro from "@/assets/images/about2.jpg";
+import aboutChoose from "@/assets/images/about3.jpg";
+
 export function AboutPage() {
   return (
     <>
       <section className="vc-about-hero">
+        <div className="vc-about-hero__media">
+          <img src={aboutHero} alt="About Viraaj Consultancy" />
+          <div className="vc-about-hero__overlay" />
+        </div>
         <div className="vc-about-hero__content container">
           <h1>About Viraaj Consultancy</h1>
           <p>We help businesses stay compliant, audit-ready and growth-focused.</p>
@@ -10,7 +18,9 @@ export function AboutPage() {
 
       <section className="section">
         <div className="container vc-about-intro">
-          <div className="vc-about-intro__image" />
+          <div className="vc-about-intro__image">
+            <img src={aboutIntro} alt="About company introduction" />
+          </div>
           <div className="vc-about-intro__content">
             <p className="vc-section-label">ABOUT COMPANY</p>
             <h2>Your Financial Partner for Success</h2>
@@ -81,6 +91,7 @@ export function AboutPage() {
             </div>
           </div>
           <div className="vc-choose__image">
+            <img src={aboutChoose} alt="Experience at Viraaj Consultancy" />
             <div className="vc-choose__badge">
               <div className="vc-choose__badge__num">15</div>
               <div className="vc-choose__badge__label">Years Experience</div>

@@ -1,8 +1,15 @@
+import serviceHero from "@/assets/images/service1.jpg";
+import serviceBanner from "@/assets/images/service2.jpg";
+
 export function ServicesPage() {
   return (
     <>
       {/* HERO */}
       <section className="vc-services-hero">
+        <div className="vc-services-hero__media">
+          <img src={serviceHero} alt="Our Services" />
+          <div className="vc-services-hero__overlay" />
+        </div>
         <div className="container vc-services-hero__content">
           <h1>Our Services</h1>
           <p>
@@ -28,48 +35,54 @@ export function ServicesPage() {
           <div className="vc-service-card is-active">
             <h3>Bookkeeping</h3>
             <p>Accurate books, reconciliations, and audit‑ready schedules.</p>
-            <a className="vc-link" href="#pricing">Read More →</a>
+            <a className="vc-link" href="#pricing">Read More </a>
           </div>
           <div className="vc-service-card">
             <h3>Payroll Services</h3>
             <p>End‑to‑end payroll with PF/ESIC, challans and payslips.</p>
-            <a className="vc-link" href="#pricing">Read More →</a>
+            <a className="vc-link" href="#pricing">Read More</a>
           </div>
           <div className="vc-service-card">
             <h3>Tax Planning</h3>
             <p>Proactive planning to optimize tax exposure and ensure compliance.</p>
-            <a className="vc-link" href="#pricing">Read More →</a>
+            <a className="vc-link" href="#pricing">Read More</a>
           </div>
           <div className="vc-service-card">
             <h3>Audit & Assurance</h3>
             <p>Statutory and internal audits with robust process reviews.</p>
-            <a className="vc-link" href="#pricing">Read More →</a>
+            <a className="vc-link" href="#pricing">Read More</a>
           </div>
           <div className="vc-service-card">
             <h3>Financial Statements</h3>
             <p>Preparation and review aligned with applicable standards.</p>
-            <a className="vc-link" href="#pricing">Read More →</a>
+            <a className="vc-link" href="#pricing">Read More</a>
           </div>
           <div className="vc-service-card">
             <h3>GST Compliance</h3>
             <p>Registrations, returns, reconciliations and audit support.</p>
-            <a className="vc-link" href="#pricing">Read More →</a>
+            <a className="vc-link" href="#pricing">Read More</a>
           </div>
           <div className="vc-service-card">
             <h3>Business Advisory</h3>
             <p>SOPs, MIS, and finance strategy for scale.</p>
-            <a className="vc-link" href="#pricing">Read More →</a>
+            <a className="vc-link" href="#pricing">Read More</a>
           </div>
           <div className="vc-service-card">
             <h3>Outsourced CFO</h3>
             <p>Budgeting, cash flow, and board‑ready reporting.</p>
-            <a className="vc-link" href="#pricing">Read More →</a>
+            <a className="vc-link" href="#pricing">Read More</a>
           </div>
         </div>
       </section>
 
+      
+
       {/* MID BANNER WITH IMAGE 2 */}
       <section className="vc-services-banner">
+        <div className="vc-services-banner__media">
+          <img src={serviceBanner} alt="Financial management support" />
+          <div className="vc-services-banner__overlay" />
+        </div>
         <div className="container vc-services-banner__content">
           <h2>Having Trouble Managing Your Finances?</h2>
           <p>Let us handle compliance and numbers — you focus on growth.</p>
@@ -102,7 +115,7 @@ export function ServicesPage() {
                 <li>Payroll up to 30 employees</li>
                 <li>PF/ESIC + GST returns</li>
               </ul>
-              <a className="vc-btn vc-btn--primary" href="/contact">Get Started →</a>
+              <a className="vc-btn vc-btn--outline" href="/contact">Get Started →</a>
             </div>
 
             <div className="vc-price-card">

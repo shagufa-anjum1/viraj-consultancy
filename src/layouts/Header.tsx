@@ -6,12 +6,12 @@ export function Header() {
   return (
     <>
       {/* Top Bar */}
-      <div className="vc-topbar">
+      {/* <div className="vc-topbar">
         <div className="container vc-topbar__inner">
           <div>info@viraajconsultancy.com</div>
           <div>+91 98765 43210</div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Header */}
       <header className="vc-header">
@@ -35,10 +35,10 @@ export function Header() {
             ))}
           </nav>
 
-          <div className="vc-call">
+          {/* <div className="vc-call">
             <span className="vc-call__label">Call Us</span>
             <span className="vc-call__num">+91 98765 43210</span>
-          </div>
+          </div> */}
         </div>
       </header>
     </>

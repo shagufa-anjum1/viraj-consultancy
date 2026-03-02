@@ -78,9 +78,11 @@ export function HomePage() {
               <li>✔ Dedicated HR Support</li>
             </ul>
 
-            <a href="/about" className="vc-btn vc-btn--primary">
-              More About Us →
-            </a>
+            <button className="vc-about__button">
+              <a href="/about" className="vc-btn vc-btn--ghost">
+                More About Us
+              </a>
+            </button>
           </div>
 
         </div>
@@ -128,49 +130,49 @@ export function HomePage() {
           <div className="vc-service-card is-active">
             <h3>Bookkeeping</h3>
             <p>Accurate books, reconciliations, and audit-ready records each month.</p>
-            <a className="vc-link" href="/services/bookkeeping">Read More →</a>
+            <a className="vc-link" href="/services/bookkeeping">Read More</a>
           </div>
 
           <div className="vc-service-card">
             <h3>Payroll Services</h3>
             <p>End-to-end payroll with PF/ESIC, challans, and payslips handled.</p>
-            <a className="vc-link" href="/services/payroll">Read More →</a>
+            <a className="vc-link" href="/services/payroll">Read More</a>
           </div>
 
           <div className="vc-service-card">
             <h3>Tax Planning</h3>
             <p>Proactive planning to optimize tax exposure and ensure compliance.</p>
-            <a className="vc-link" href="/services/tax-planning">Read More →</a>
+            <a className="vc-link" href="/services/tax-planning">Read More</a>
           </div>
 
           <div className="vc-service-card">
             <h3>Audit & Assurance</h3>
             <p>Statutory, internal audits and process reviews for robust controls.</p>
-            <a className="vc-link" href="/services/audit">Read More →</a>
+            <a className="vc-link" href="/services/audit">Read More</a>
           </div>
 
           <div className="vc-service-card">
             <h3>Financial Statements</h3>
             <p>Preparation and review compliant with standards and timelines.</p>
-            <a className="vc-link" href="/services/financials">Read More →</a>
+            <a className="vc-link" href="/services/financials">Read More</a>
           </div>
 
           <div className="vc-service-card">
             <h3>GST Compliance</h3>
             <p>Registrations, monthly returns, reconciliations, and audit support.</p>
-            <a className="vc-link" href="/services/gst">Read More →</a>
+            <a className="vc-link" href="/services/gst">Read More</a>
           </div>
 
           <div className="vc-service-card">
             <h3>Business Advisory</h3>
             <p>Entity structuring, SOPs, MIS, and growth-focused financial insights.</p>
-            <a className="vc-link" href="/services/advisory">Read More →</a>
+            <a className="vc-link" href="/services/advisory">Read More</a>
           </div>
 
           <div className="vc-service-card">
             <h3>Outsourced CFO</h3>
             <p>Strategic finance partner for cash flow, budgeting, and fundraising.</p>
-            <a className="vc-link" href="/services/cfo">Read More →</a>
+            <a className="vc-link" href="/services/cfo">Read More</a>
           </div>
         </div>
       </section>

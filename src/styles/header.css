@@ -32,6 +32,7 @@
   justify-content: space-between;
   gap: 20px;
   padding: 12px 0;
+  position: relative;
 }
 
 /* =========================
@@ -69,6 +70,9 @@
   display: flex;
   gap: 24px;
   align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .vc-nav__item {

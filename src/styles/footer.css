@@ -11,11 +11,12 @@
   align-items: start;
 }
 .vc-footer__brand .vc-footer__logo {
-  width: 120px;
+  width: 340px;
   height: auto;
   margin-bottom: 12px;
 }
-.vc-footer__brand p { max-width: 380px; }
+.vc-footer__brand p { max-width: 380px;
+  color: #fff; }
 
 .vc-footer__col h4 {
   color: #fff;

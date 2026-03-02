@@ -85,7 +85,7 @@
 .vc-feature-card {
   background: var(--brand);
   color: white;
-  padding: 46px 40px;
+  padding: 30px 40px;
   border-radius: 14px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -146,7 +146,10 @@
   margin-bottom: 20px;
   color: #555;
 }
-
+.vc-about__button{
+  background-color: #1aa6b7;
+  color: #fff;
+}
 .vc-about__list {
   margin-bottom: 24px;
   padding-left: 0;
@@ -157,6 +160,7 @@
   margin-bottom: 10px;
   font-weight: 500;
 }
+
 
 /* ====================================
    STATS SECTION
@@ -198,6 +202,7 @@
 .vc-stat p {
   font-size: 18px;
   opacity: 0.9;
+  color: #fff;
 }
 
 /* ====================================
