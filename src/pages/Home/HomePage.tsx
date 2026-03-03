@@ -1,5 +1,10 @@
 import heroImage from "@/assets/images/hero1.jpg";
 import hero1 from "@/assets/images/viraaj1.jpg";
+import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
+import FaqSection from "@/pages/Faq/FaqPage";
+import contactBg from "@/assets/images/contact.jpg";
+import contactInfo from "@/assets/images/contact3.jpg";
+import { Link } from "react-router-dom";
 
 
 
@@ -22,10 +27,10 @@ export function HomePage() {
             Structured payroll processing, PF/ESIC management, employee insurance handling and
             regulatory compliance documentation for growing businesses.
           </p>
-
-          <a href="/services" className="vc-btn vc-btn--primary">
-            Discover More →
-          </a>
+          
+          <Link to="/services" className="vc-btn vc-btn--shine">
+            <span className="vc-btn__label">Discover More</span>
+          </Link>
         </div>
       </section>
 
@@ -78,11 +83,9 @@ export function HomePage() {
               <li>✔ Dedicated HR Support</li>
             </ul>
 
-            <button className="vc-about__button">
-              <a href="/about" className="vc-btn vc-btn--ghost">
-                More About Us
-              </a>
-            </button>
+            <Link to="/about" className="vc-btn vc-btn--shine">
+              <span className="vc-btn__label">More About Us</span>
+            </Link>
           </div>
 
         </div>
@@ -173,6 +176,73 @@ export function HomePage() {
             <h3>Outsourced CFO</h3>
             <p>Strategic finance partner for cash flow, budgeting, and fundraising.</p>
             <a className="vc-link" href="/services/cfo">Read More</a>
+          </div>
+        </div>
+      </section>
+
+      {/* ================= TESTIMONIALS ================= */}
+      <TestimonialsSection />
+
+      {/* ================= FAQ ================= */}
+      <FaqSection />
+
+      {/* ================= CONTACT US (from Contact page) ================= */}
+      <section className="vc-home-contact">
+        <div className="vc-home-contact__media">
+          <img src={contactBg} alt="" />
+          <div className="vc-home-contact__overlay" />
+        </div>
+        <div className="container">
+          <div className="vc-contact-connect__head">
+            <h2>Contact Us</h2>
+            <p>Let's discuss your project and create something amazing together.</p>
+          </div>
+          <div className="vc-contact-connect__grid">
+            <form className="vc-form vc-form--fancy" onSubmit={(e) => e.preventDefault()}>
+              <h3>CONTACT US</h3>
+              <div className="vc-form__divider" />
+              <label className="vc-field vc-field--name">
+                <span>Full Name</span>
+                <input type="text" placeholder="Your name" required />
+              </label>
+              <label className="vc-field vc-field--email">
+                <span>Email Address</span>
+                <input type="email" placeholder="you@email.com" required />
+              </label>
+              <label className="vc-field vc-field--phone">
+                <span>Phone Number</span>
+                <input type="tel" placeholder="+91 XXXXXX XXXX" />
+              </label>
+              <label className="vc-field vc-field--msg is-textarea">
+                <span>Your Message</span>
+                <textarea rows={5} placeholder="Tell us how we can help..." />
+              </label>
+              <button type="submit" className="vc-btn vc-btn--primary vc-btn--xl">Send Message</button>
+            </form>
+            <aside className="vc-office">
+              <div className="vc-office__bg">
+                <img src={contactInfo} alt="Our office" />
+                <div className="vc-office__overlay" />
+              </div>
+              <div className="vc-office__card">
+                <div className="vc-office__row">
+                  <span className="vc-office__label">Address</span>
+                  <span className="vc-office__value">SCO-12, Kamla Palace, Near Sohna Chowk, Gurugram - 122001</span>
+                </div>
+                <div className="vc-office__row">
+                  <span className="vc-office__label">Phone</span>
+                  <span className="vc-office__value">+91 9870179510</span>
+                </div>
+                <div className="vc-office__row">
+                  <span className="vc-office__label">Email</span>
+                  <span className="vc-office__value">info@viraajconsultancy.com</span>
+                </div>
+                <div className="vc-office__row">
+                  <span className="vc-office__label">Hours</span>
+                  <span className="vc-office__value">Mon–Sat: 10AM–7PM</span>
+                </div>
+              </div>
+            </aside>
           </div>
         </div>
       </section>

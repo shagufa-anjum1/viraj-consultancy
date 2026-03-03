@@ -18,7 +18,8 @@
 .vc-about-hero__overlay{
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,.45);
+    background:
+        linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.85));
 }
 .vc-about-hero p{
     color: #fff;
@@ -35,8 +36,8 @@
 }
 
 .vc-about-hero__content p {
-    opacity: .95
-    
+    opacity: .95;
+    font-size: 20px
 }
 
 .vc-about-hero__content h1,

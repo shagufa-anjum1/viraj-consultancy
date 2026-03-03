@@ -22,7 +22,8 @@
 .vc-contact-hero__overlay{
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,.45);
+  background:
+    linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.85));
 }
 
 .vc-contact-hero__content {
@@ -43,7 +44,7 @@
   opacity: 1;
   max-width: 720px;
   color: #fff;
-  font-size: large;
+  font-size: 20px;
 }
 
 /* WHY SECTION */

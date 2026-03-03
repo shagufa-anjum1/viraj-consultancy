@@ -5,6 +5,7 @@ import { AboutPage } from "@/pages/About/AboutPage";
 import { TeamPage } from "@/pages/Team/TeamPage";
 import { ServicesPage } from "@/pages/Services/ServicesPage";
 import { ContactPage } from "@/pages/Contact/ContactPage";
+import { TestimonialsPage } from "@/pages/Testimonials/TestimonialsPage";
 
 export function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ export function AppRoutes() {
         <Route path="/team" element={<TeamPage />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/testimonials" element={<TestimonialsPage />} />
       </Route>
     </Routes>
   );
