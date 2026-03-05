@@ -21,7 +21,7 @@ export function ContactPage() {
       <section className="vc-contact-why section">
         <div className="container vc-contact-why__grid">
           <div className="vc-contact-why__text">
-            <h2>Why Viraaj <span>Consultancy?</span></h2>
+            <h2>Why Viraj <span>Consultancy?</span></h2>
             <p>
               Because your business deserves more than routine filings. We focus on
               reliability, compliance, and clarity — so you grow without penalties or surprises.
@@ -101,7 +101,7 @@ export function ContactPage() {
 
                 <div className="vc-office__row">
                   <span className="vc-office__label">Email</span>
-                  <span className="vc-office__value">info@viraajconsultancy.com</span>
+                  <span className="vc-office__value">info@virajconsultancy.com</span>
                 </div>
 
                 <div className="vc-office__row">

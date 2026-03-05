@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { navLinks } from "@/config/navigation";
-import logo from "@/assets/images/viraajlogo.png";
+import logo from "@/assets/images/viraj-Logo.png";
 
 const services = [
   { label: "Bookkeeping", to: "/services#bookkeeping" },
@@ -19,7 +19,7 @@ export function Footer() {
       <div className="container vc-footer__grid">
         {/* Brand */}
         <div className="vc-footer__brand">
-          <img className="vc-footer__logo" src={logo} alt="Viraaj Consultancy" />
+          <img className="vc-footer__logo" src={logo} alt="Viraj Consultancy" />
           <p>
             Trusted CA partner for payroll, compliance and advisory —
             clarity, confidentiality and on‑time delivery.
@@ -54,7 +54,7 @@ export function Footer() {
               <strong>Phone:</strong> +91 98765 43210
             </li>
             <li>
-              <strong>Email:</strong> info@viraajconsultancy.com
+              <strong>Email:</strong> info@virajconsultancy.com
             </li>
             <li>
               <strong>Office:</strong> SCO‑12, Kamla Palace, Gurugram — 122001
@@ -65,7 +65,7 @@ export function Footer() {
 
       <div className="vc-footer__bottom">
         <div className="container vc-footer__bottom__inner">
-          <div>© {new Date().getFullYear()} Viraaj Consultancy. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Viraj Consultancy. All rights reserved.</div>
           <div>Privacy • Terms</div>
         </div>
       </div>

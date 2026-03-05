@@ -1,5 +1,5 @@
 import heroImage from "@/assets/images/hero1.jpg";
-import hero1 from "@/assets/images/viraaj1.jpg";
+import hero1 from "@/assets/images/viraj1.jpg";
 import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
 import FaqSection from "@/pages/Faq/FaqPage";
 import contactBg from "@/assets/images/contact.jpg";
@@ -17,7 +17,7 @@ export function HomePage() {
         <div className="vc-hero__overlay" />
 
         <div className="vc-hero__content">
-          <p className="vc-hero__subtitle">WELCOME TO Viraaj Consultancy</p>
+          <p className="vc-hero__subtitle">WELCOME TO Viraj Consultancy</p>
 
           <h1 className="vc-hero__title">
             The Most Trusted Payroll & Compliance Partner
@@ -27,7 +27,7 @@ export function HomePage() {
             Structured payroll processing, PF/ESIC management, employee insurance handling and
             regulatory compliance documentation for growing businesses.
           </p>
-          
+
           <Link to="/services" className="vc-btn vc-btn--shine">
             <span className="vc-btn__label">Discover More</span>
           </Link>
@@ -235,7 +235,7 @@ export function HomePage() {
                 </div>
                 <div className="vc-office__row">
                   <span className="vc-office__label">Email</span>
-                  <span className="vc-office__value">info@viraajconsultancy.com</span>
+                  <span className="vc-office__value">info@virajconsultancy.com</span>
                 </div>
                 <div className="vc-office__row">
                   <span className="vc-office__label">Hours</span>

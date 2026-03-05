@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { navLinks } from "@/config/navigation";
-import logo from "@/assets/images/viraajlogo.png";
+import logo from "@/assets/images/viraj-Logo.png";
 
 export function Header() {
   return (
@@ -8,7 +8,7 @@ export function Header() {
       {/* Top Bar */}
       {/* <div className="vc-topbar">
         <div className="container vc-topbar__inner">
-          <div>info@viraajconsultancy.com</div>
+          <div>info@virajconsultancy.com</div>
           <div>+91 98765 43210</div>
         </div>
       </div> */}
@@ -17,7 +17,7 @@ export function Header() {
       <header className="vc-header">
         <div className="container vc-header__inner">
           <Link to="/" className="vc-header__brand">
-            <img className="vc-header__logoimg" src={logo} alt="Viraaj Consultancy" />
+            <img className="vc-header__logoimg" src={logo} alt="Viraj Consultancy" />
           </Link>
 
           <nav className="vc-header__nav">

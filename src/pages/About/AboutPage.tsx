@@ -7,11 +7,11 @@ export function AboutPage() {
     <>
       <section className="vc-about-hero">
         <div className="vc-about-hero__media">
-          <img src={aboutHero} alt="About Viraaj Consultancy" />
+          <img src={aboutHero} alt="About Viraj Consultancy" />
           <div className="vc-about-hero__overlay" />
         </div>
         <div className="vc-about-hero__content container">
-          <h1>About Viraaj Consultancy</h1>
+          <h1>About Viraj Consultancy</h1>
           <p>We help businesses stay compliant, audit-ready and growth-focused.</p>
         </div>
       </section>
@@ -25,7 +25,7 @@ export function AboutPage() {
             <p className="vc-section-label">ABOUT COMPANY</p>
             <h2>Your Financial Partner for Success</h2>
             <p>
-              Viraaj Consultancy provides structured payroll, tax and compliance services for
+              Viraj Consultancy provides structured payroll, tax and compliance services for
               growing organizations. We combine precision with clarity so leaders can make
               confident decisions while avoiding penalties and delays.
             </p>
@@ -55,7 +55,7 @@ export function AboutPage() {
 
             <div className="vc-founder">
               <div className="vc-founder__name">Founder</div>
-              <div className="vc-founder__title">Viraaj Consultancy</div>
+              <div className="vc-founder__title">Viraj Consultancy</div>
             </div>
           </div>
         </div>
